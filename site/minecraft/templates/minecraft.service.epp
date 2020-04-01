@@ -1,5 +1,5 @@
 [Unit]
-Description=Minecraftt Server
+Description=Minecraft Server
 
 Wants=network.target
 After=network.target

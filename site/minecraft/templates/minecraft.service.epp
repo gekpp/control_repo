@@ -1,0 +1,13 @@
+[Unit]
+Description=Minecraftt Server
+
+Wants=network.target
+After=network.target
+
+[Service]
+WorkingDirectory=<%= $install_dir %>
+ExecStart=/usr/bin/java -Xms512M -Xms32M -jar minecraft_server.jar nogui
+
+[Install]
+WantedBy=multi-user.target
+© 2020 GitHub, Inc.

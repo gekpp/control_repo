@@ -10,4 +10,3 @@ ExecStart=/usr/bin/java -Xms512M -Xms32M -jar minecraft_server.jar nogui
 
 [Install]
 WantedBy=multi-user.target
-© 2020 GitHub, Inc.

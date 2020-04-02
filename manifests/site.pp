@@ -1,7 +1,6 @@
-node default {
-  notify {"This is production environment": }
-}
+node default { }
 node 'master.puppet.vm' {
+  notify {"This is production environment": }
   include role::master_server
   file { '/root/README':
     ensure  => file,
